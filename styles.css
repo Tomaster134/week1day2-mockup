@@ -189,7 +189,8 @@ input::placeholder {
 
 .divide {
     border-top: 2px #adb1b8 solid;
-    width: 100%;
+    width: 99%;
+    margin: auto;
 }
 
 .legalese {
