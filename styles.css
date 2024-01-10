@@ -1,0 +1,121 @@
+* {
+    font-family: 'Amazon Ember', sans-serif;
+    font-weight: 380;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    margin: 20px 0px 60px 0px
+}
+
+.logopic {
+    border-radius: 15%;
+    border: 2px black solid
+}
+
+.signin {
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    padding: 5px 26px 20px 26px    
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 8px
+}
+
+.input_field {
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    width: 400px;
+    height: 35px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    font-weight: 375;
+}
+
+.label_field {
+
+}
+
+.label2 {
+    margin-left: 60px
+}
+
+.fpassword {
+    margin-left: 140px;
+}
+
+.apass {
+    text-decoration:none;
+}
+
+.continue_button {
+    background: #f7c548;
+    border-color: #9c7e31;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2px;
+    color: black;
+    padding: 5px 5px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+}
+
+.div_button {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px
+}
+
+.help {
+    margin: 25px 0px 5px 50px
+}
+
+.ahelp {
+    text-decoration:none;
+}
+
+.icon {
+    background-image: url(./img/Collapse.png);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+}
+
+.newto {
+
+}
+
+h5 {
+    line-height: 1;
+    font-size: 18px;
+    color: #767676;
+    font-weight: 350;
+    z-index: 2;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 7px 0 7px;
+    margin: 10px 0px
+}
+
+.span_line {
+    border-top: 1px black solid;
+    display: block;
+    padding-top: 20px;
+}
