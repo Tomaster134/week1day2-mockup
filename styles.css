@@ -164,7 +164,7 @@ input::placeholder {
     border-radius: 2px;
     color: black;
     padding: 5px 5px;
-    width: 400px;
+    width: 420px;
     text-align: center;
     outline: none;
     transition-duration: 20ms;
@@ -183,7 +183,7 @@ input::placeholder {
     display: flex;
     justify-content: stretch;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 35px;
 }
 
@@ -225,7 +225,7 @@ input::placeholder {
 }
 
 .tag {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
 }
 
