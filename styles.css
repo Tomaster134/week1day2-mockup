@@ -15,12 +15,22 @@
 }
 
 .logo {
-    margin: 20px 0px 60px 0px
+    display: block;
+    margin: 20px 0px 60px 0px;
+    width: 100px;
+    height: 59px;
+    background: url(./img/MeGeorgiaJersey.jpg);
+    border-radius: 30%;
+    border: 2px black solid
 }
 
 .logopic {
     border-radius: 15%;
     border: 2px black solid
+}
+
+.logo:hover {
+    background: url(./img/MeZoolander.JPG);
 }
 
 .signin {
@@ -48,12 +58,36 @@ input::placeholder {
     font-weight: 375;
 }
 
-.label_field {
-
-}
-
 .label2 {
     margin-left: 60px
+}
+
+.hovertip {
+    position: relative;
+    display: inline-block;
+}
+
+.hovertip .hovertext {
+    visibility: hidden;
+    background-color: #f5d78e;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.hovertip:hover .hovertext {
+    visibility: visible;
+}
+  
+.hovertip:hover .hovertext2 {
+    visibility: visible;
 }
 
 .fpassword {
@@ -75,6 +109,17 @@ input::placeholder {
     width: 100%;
     text-align: center;
     outline: none;
+    transition-duration: 20ms;
+}
+
+.continue_button:hover {
+    background-color: #f5d78e;
+    
+}
+
+.continue_button:active {
+    background-color: #f0b800;
+    box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
 }
 
 .div_button {
@@ -84,7 +129,7 @@ input::placeholder {
 }
 
 .help {
-    margin: 25px 0px 5px 50px
+    margin: 25px 0px 5px 20px
 }
 
 .ahelp {
@@ -99,23 +144,93 @@ input::placeholder {
 }
 
 .newto {
-
-}
-
-h5 {
-    line-height: 1;
-    font-size: 18px;
+    position: relative;
+    text-align: center;
     color: #767676;
-    font-weight: 350;
-    z-index: 2;
-    display: inline-block;
-    background-color: #fff;
-    padding: 0 7px 0 7px;
-    margin: 10px 0px
 }
 
-.span_line {
-    border-top: 1px black solid;
-    display: block;
-    padding-top: 20px;
+.newto_text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newto_button {
+    background: #e7e9ec;
+    border-color: #adb1b8;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2px;
+    color: black;
+    padding: 5px 5px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    transition-duration: 20ms;
+}
+
+.newto_button:hover {
+    background-color: #bfc2c6;
+}
+
+.newto_button:active {
+    background-color: #f1f4f7;
+    box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
+}
+
+.lower {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.divide {
+    border-top: 2px #adb1b8 solid;
+    width: 100%;
+}
+
+.legalese {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.legal {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.hovertext2 {
+    visibility: hidden;
+    background-color: #f5d78e;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -40px;
+    font-size: 8px;
+}
+
+.tagger {
+    margin: 20px 0px 50px 0px;
+}
+
+.tag {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
 }
