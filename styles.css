@@ -1,237 +1,236 @@
 * {
-    font-family: 'Amazon Ember', sans-serif;
-    font-weight: 380;
-    font-size: 16px;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Amazon Ember", sans-serif;
+  font-weight: 380;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 .flex-overall {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
 .logo {
-    display: block;
-    margin: 20px 0px 60px 0px;
-    width: 100px;
-    height: 59px;
-    background: url(./img/MeGeorgiaJersey.jpg);
-    border-radius: 30%;
-    border: 2px black solid
+  display: block;
+  margin: 20px 0px 60px 0px;
+  width: 100px;
+  height: 59px;
+  background: url(./img/MeGeorgiaJersey.jpg);
+  border-radius: 30%;
+  border: 2px black solid;
 }
 
 .logopic {
-    border-radius: 15%;
-    border: 2px black solid
+  border-radius: 15%;
+  border: 2px black solid;
 }
 
 .logo:hover {
-    background: url(./img/MeZoolander.JPG);
+  background: url(./img/MeZoolander.JPG);
 }
 
 .signin {
-    border: 1px #ddd solid;
-    border-radius: 4px;
-    padding: 5px 26px 20px 26px    
+  border: 1px #ddd solid;
+  border-radius: 4px;
+  padding: 5px 26px 20px 26px;
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 1.2;
-    margin-bottom: 8px
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .input_field {
-    width: 100%;
-    margin: 10px 0px 20px 0px;
-    width: 400px;
-    height: 35px;
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  width: 400px;
+  height: 35px;
 }
 
 input::placeholder {
-    font-size: 18px;
-    font-weight: 375;
+  font-size: 18px;
+  font-weight: 375;
 }
 
 .label2 {
-    margin-left: 60px
+  margin-left: 60px;
 }
 
 .hovertip {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .hovertip .hovertext {
-    visibility: hidden;
-    background-color: #f5d78e;
-    color: #000;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    width: 120px;
-    bottom: 120%;
-    left: 50%;
-    margin-left: -60px;
+  visibility: hidden;
+  background-color: #f5d78e;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .hovertip:hover .hovertext {
-    visibility: visible;
+  visibility: visible;
 }
-  
+
 .hovertip:hover .hovertext2 {
-    visibility: visible;
+  visibility: visible;
 }
 
 .fpassword {
-    margin-left: 140px;
+  margin-left: 140px;
 }
 
 .apass {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 .continue_button {
-    background: #f7c548;
-    border-color: #9c7e31;
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 2px;
-    color: black;
-    padding: 5px 5px;
-    width: 100%;
-    text-align: center;
-    outline: none;
-    transition-duration: 20ms;
+  background: #f7c548;
+  border-color: #9c7e31;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
+  color: black;
+  padding: 5px 5px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  transition-duration: 20ms;
 }
 
 .continue_button:hover {
-    background-color: #f5d78e;
-    
+  background-color: #f5d78e;
 }
 
 .continue_button:active {
-    background-color: #f0b800;
-    box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
+  background-color: #f0b800;
+  box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
 }
 
 .div_button {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0px
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
 }
 
 .help {
-    margin: 25px 0px 5px 20px
+  margin: 25px 0px 5px 20px;
 }
 
 .ahelp {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 .icon {
-    background-image: url(./img/Collapse.png);
-    display: inline-block;
-    width: 7px;
-    height: 7px;
+  background-image: url(./img/Collapse.png);
+  display: inline-block;
+  width: 7px;
+  height: 7px;
 }
 
 .newto {
-    position: relative;
-    text-align: center;
-    color: #767676;
+  position: relative;
+  text-align: center;
+  color: #767676;
 }
 
 .newto_text {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .newto_button {
-    background: #e7e9ec;
-    border-color: #adb1b8;
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 2px;
-    color: black;
-    padding: 5px 5px;
-    width: 420px;
-    text-align: center;
-    outline: none;
-    transition-duration: 20ms;
+  background: #e7e9ec;
+  border-color: #adb1b8;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
+  color: black;
+  padding: 5px 5px;
+  width: 420px;
+  text-align: center;
+  outline: none;
+  transition-duration: 20ms;
 }
 
 .newto_button:hover {
-    background-color: #bfc2c6;
+  background-color: #bfc2c6;
 }
 
 .newto_button:active {
-    background-color: #f1f4f7;
-    box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
+  background-color: #f1f4f7;
+  box-shadow: 0 0 0 2px #fff inset, 0 0 0 3px #c8f3fa;
 }
 
 .lower {
-    display: flex;
-    justify-content: stretch;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 35px;
+  display: flex;
+  justify-content: stretch;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 .divide {
-    border-top: 2px #adb1b8 solid;
-    width: 99%;
-    margin: auto;
+  border-top: 2px #adb1b8 solid;
+  width: 99%;
+  margin: auto;
 }
 
 .legalese {
-    display: flex;
-    justify-content: space-around;
-    width: 250px;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
 }
 
 .legal {
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .hovertext2 {
-    visibility: hidden;
-    background-color: #f5d78e;
-    color: #000;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    width: 80px;
-    bottom: 120%;
-    left: 50%;
-    margin-left: -40px;
-    font-size: 8px;
+  visibility: hidden;
+  background-color: #f5d78e;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -40px;
+  font-size: 8px;
 }
 
 .tagger {
-    margin: 20px 0px 50px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .tag {
-    font-size: 12px;
-    font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #c45500;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c45500;
 }
